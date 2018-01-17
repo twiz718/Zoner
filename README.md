@@ -54,3 +54,8 @@ $ ./Zoner.exe -f /c/Users/akhanin/Desktop/autoruns/autoruns.exe -d
 Deleting Zone.Identifier ADS from C:/Users/akhanin/Desktop/autoruns/autoruns.exe
 ```
 
+
+Finding files with ADS:
+```
+dir /s /r | find ":$DATA"
+```
